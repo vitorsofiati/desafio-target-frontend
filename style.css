@@ -27,6 +27,12 @@ button:hover {
 	text-align: left;
 }
 
-#saida h2 {
+#enunciado {
 	margin-bottom: 5px;
+	font-size: 1.4rem;
+}
+
+#resultado {
+	margin-top: 40px;
+	font-size: 1.2rem;
 }
