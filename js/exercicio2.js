@@ -3,7 +3,11 @@ export function exercicio2(exibirExercicio) {
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...
 Informe um número e descubra se ele pertence à sequência.`;
 
-	const input = parseInt(prompt('Informe um número:'));
+	const input = parseInt(
+		prompt(
+			'Informe um número para saber se ele pertence à sequência de Fibonacci:'
+		)
+	);
 
 	// validar o input
 	if (isNaN(input))

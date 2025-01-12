@@ -2,7 +2,7 @@ export function exercicio5(exibirExercicio) {
 	const enunciado = `5) Escreva um programa que inverta os caracteres de um string.`;
 
 	// obter a string
-	const inputString = prompt('Digite uma string:');
+	const inputString = prompt('Digite uma string para o programa invertê-la:');
 
 	// Validando o input
 	if (inputString === null || inputString.trim() === '') {
