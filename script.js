@@ -1,4 +1,5 @@
 import { exercicio1 } from './js/exercicio1.js';
+import { exercicio2 } from './js/exercicio2.js';
 
 // Exibir o resultado na tela
 function exibirExercicio(enunciado, resultado) {
@@ -7,4 +8,5 @@ function exibirExercicio(enunciado, resultado) {
 }
 
 // Atribuindo os exercícios aos botões
-window.exercicio1 = () => exercicio1(exibirExercicio);
+window.executarExercicio1 = () => exercicio1(exibirExercicio);
+window.executarExercicio2 = () => exercicio2(exibirExercicio);
